@@ -1,0 +1,18 @@
+MTD COMPITATIVE PROGARMMING TRAINING
+
+DAY1 THURSDAY 06-03-2025
+
+important git commands
+
+git status
+
+//to know the status of floder
+
+git clone <URL>
+//to download the repo
+
+git clone https://github.com/neelmyna/vvce_mar25
+//to get into and download already done repo
+
+git pull origin main
+//command to download the updated repo from the server to the local machine
