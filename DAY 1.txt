@@ -2,10 +2,9 @@ MTD COMPITATIVE PROGARMMING TRAINING
 
 DAY1 THURSDAY 06-03-2025
 
-important git commands
+IMPORTANT GIT COMMANDS
 
 git status
-
 //to know the status of floder
 
 git clone <URL>
@@ -16,3 +15,36 @@ git clone https://github.com/neelmyna/vvce_mar25
 
 git pull origin main
 //command to download the updated repo from the server to the local machine
+
+to make our computer recognise our git account, we must run these 2 configuration commands :
+
+git config --global user.name "Harsha2024"
+
+git config --global user.mail "harshaachar55@gmail.com"
+
+STEPS TO CREATE A NEW PAT IN GITHUB:
+
+login to github 
+right top corner click on your profile
+scroll down and click settings
+next window, scroll down, on top left, click personal access tokens, and click on Next window, on the top left , click personal access tokens,
+click again on classic tokens(now u may b asked to enter the password)
+next, add a note for the new pat we are creating
+select expiry - no expiration
+select the top check box reposcroll down fully anc click on the green generate tokens
+now copy the PAT
+come to gmail and mail and PAT to yourself or to one of your account (mail sub: GIT PAT)
+
+
+git clone  https://<PAT>@github.com/neelmyna/vvce_mar25
+
+
+comands required upload files local repo to remote:
+
+git add .
+// git will mark all the files that need to be updated
+
+git commit -m "notes files of the mtd training is added"
+//git creates an object that will include all the files to be uploaded and also it is secured(encription)
+ 
+
