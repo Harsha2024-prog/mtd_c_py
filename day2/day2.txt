@@ -1,0 +1,15 @@
+DAY2 FRIDAY 07-03-2025
+
+Arithemstic operator: + - * / %
+All are binary operators
+I/P are numbers 
+O/P is number
+Used with Infix Notation
+To perform any artitheamtic operator , DT of both the loperands must be same 
+Left to Right assosative w.r.t reading the values/expressions.
+For the calculation to happen, the user/programmer given infix expression must be converted to postfix
+The operators have difference hierarcy(precedence)
+-------------------
+
+
+Logical operator: & && | || ! 
